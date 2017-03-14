@@ -6,10 +6,10 @@ LFLiveKit
 推流端,这里我才用的 开源的推流框架,开源的iOS推流框架LFLiveKit. 是用OC写的, 很适合学习集成也非常简单, 几句代码就OK了,LFLiveKit已经集成了GPUImage, 如果项目中有集成GPUImage, 需要将之前的移除掉. 且集成LFLiveKit需要关闭Bitcode
 拉流端 主要是基于ijkplayer(https://github.com/Bilibili/ijkplayer)的. 最好是打包成framework.
 
-#import <IJKMediaFramework/IJKMediaFramework.h>
+@#import /IJKMediaFramework/IJKMediaFramework.h>
 @interface ViewController : UIViewController 
 @property (atomic, strong) NSURL *url;
-@property (atomic, retain) id <IJKMediaPlayback> player;
+@property (atomic, retain) id /IJKMediaPlayback> player;
 @property (weak, nonatomic) IBOutlet UIView *PlayerView;
 @property (weak, nonatomic) IBOutlet UIButton *playButton;
 然后就通过初试化一些基本设置就可以播放了： 
