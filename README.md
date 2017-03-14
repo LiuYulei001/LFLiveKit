@@ -1,4 +1,5 @@
 LFLiveKit
+推流端,这里我才用的 开源的推流框架,开源的iOS推流框架LFLiveKit. 是用OC写的, 很适合学习集成也非常简单, 几句代码就OK了,LFLiveKit已经集成了GPUImage, 如果项目中有集成GPUImage, 需要将之前的移除掉. 且集成LFLiveKit需要关闭Bitcode
 ==============
 ![icon~](https://raw.github.com/LaiFengiOS/LFLiveKit/master/samples/Icon.png)
 
